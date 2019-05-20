@@ -1,0 +1,32 @@
+version: '3.5'
+
+services:
+  postgis:
+    container_name: postgis
+    restart: always
+    image: mdillon/postgis
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      ALLOW_IP_RANGE: 0.0.0.0/0
+    ports:
+      - '5432:5432'
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    links:
+      - postgis
+    ports:
+      - '8088:8080'
+
+volumes:
+  pgdata:
+
+networks:
+  default:
+    external:
+      name: shinystudio-net
+
