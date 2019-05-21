@@ -19,6 +19,94 @@ proxy:
   - name: user1
     password: user1
     groups: admins
+  - name: user2
+    password: user2
+    groups: admins
+  - name: user3
+    password: user3
+    groups: admins
+  - name: user4
+    password: user4
+    groups: admins
+  - name: user5
+    password: user5
+    groups: admins
+  - name: user6
+    password: user6
+    groups: admins
+  - name: user7
+    password: user7
+    groups: admins
+  - name: user8
+    password: user8
+    groups: admins
+  - name: user9
+    password: user9
+    groups: admins
+  - name: user10
+    password: user10
+    groups: admins
+  - name: user11
+    password: user11
+    groups: admins
+  - name: user12
+    password: user12
+    groups: admins
+  - name: user13
+    password: user13
+    groups: admins
+  - name: user14
+    password: user14
+    groups: admins
+  - name: user15
+    password: user15
+    groups: admins
+  - name: user16
+    password: user16
+    groups: admins
+  - name: user17
+    password: user17
+    groups: admins
+  - name: user18
+    password: user18
+    groups: admins
+  - name: user19
+    password: user19
+    groups: admins
+  - name: user20
+    password: user20
+    groups: admins
+  - name: user21
+    password: user21
+    groups: admins
+  - name: user22
+    password: user22
+    groups: admins
+  - name: user23
+    password: user23
+    groups: admins
+  - name: user24
+    password: user24
+    groups: admins
+  - name: user25
+    password: user25
+    groups: admins
+  - name: user26
+    password: user26
+    groups: admins
+  - name: user27
+    password: user27
+    groups: admins
+  - name: user28
+    password: user28
+    groups: admins
+  - name: user29
+    password: user29
+    groups: admins
+  - name: user30
+    password: user30
+    groups: admins
+  
   ### DANGER ZONE ###
   port: 8080 # don't change!
   landing-page: /
